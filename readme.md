@@ -59,7 +59,7 @@
 </P>
 
 <p align="justify">
-  O cronômetro pode ser iniciado, pausado e reiniciado. Os botões possuem algumas características que tornam a experiência mais real (com transformações, sombras e transições) e que ajudam na usabilidade do usuário. Quando clicados, os botões são desabilitados ou habilitados para que o usuário não se confunda. Quando o mouse passa sobre os botões habilitados, há uma animação para que o usuário saiba que está funcionando. A imagem de fundo se move quando o cronômetro está contando e para quando não está, alertando o usuário.
+  O cronômetro pode ser iniciado, pausado e reiniciado. Os botões possuem algumas características que tornam a experiência mais real (com transform, shadows e transitions) e que ajudam na usabilidade do usuário. Quando clicados, os botões são desabilitados ou habilitados para que o usuário não se confunda. Quando o mouse passa sobre os botões habilitados, há uma animação para que o usuário saiba que está funcionando. A imagem de fundo se move quando o cronômetro está contando e para quando não está, alertando o usuário.
 </p>
 
 <p align="right">(<a href="#summary">back to top | voltar ao topo</a>)</p>
