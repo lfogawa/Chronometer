@@ -1,0 +1,91 @@
+:root {
+   --font-family: 'Sedgwick Ave Display', cursive; /* Google Font Imported */
+   --transition-duration: 500ms;
+}
+
+body {
+    text-align: center;
+    color: #000000;
+}
+
+#chronometer {
+    font-family: var(--font-family);
+    font-size: 6vw;
+    transition-duration: var(--transition-duration);
+}
+
+#counter {
+    font-family: var(--font-family);
+    font-size: 10vw;
+}
+
+button {
+    font-family: var(--font-family);
+    font-size: 5vw;
+    padding: 2vw;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 7px 10px 6px 4px #00000080;
+    transition-duration: var(--transition-duration);
+    position: relative;
+}
+
+button:active {
+    transform: translateY(10px) translateX(10px);
+    box-shadow: 0 0px 0px 0px #00000080;
+    transition-duration: var(--transition-duration);
+}
+
+#pauseBtn:active {
+    transform: translateY(10px) translateX(10px);
+    box-shadow: 0 0px 0px 0px #00000080;
+    transition-duration: 100ms;
+}
+
+button:disabled,
+button[disabled]{
+    transform: translateY(10px) translateX(10px);
+    box-shadow: 0 0px 0px 0px #00000000;
+    transition-duration: var(--transition-duration);
+}
+
+button:hover:enabled {
+    color: #FFFFFF;;
+    background-color: #000000;
+    transform: scale(1.05);
+    box-shadow: 7px 10px 6px 5px #00000080;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-image: url(/background.png);
+    background-size: 300px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+@keyframes ground {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -1000%;
+    }
+}
+@-webkit-keyframes ground {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -1000%;
+    }
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
