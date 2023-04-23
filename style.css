@@ -1,5 +1,5 @@
 :root {
-   --font-family: 'Sedgwick Ave Display', cursive; /* Google Font Imported */
+   --font-family: 'Sedgwick Ave Display', cursive, sans-serif; /* Google Font Imported */
    --transition-duration: 500ms;
 }
 
