@@ -20,6 +20,7 @@ body {
 }
 
 button {
+    cursor: pointer;
     font-family: var(--font-family);
     font-size: 5vw;
     padding: 2vw;
