@@ -1,6 +1,35 @@
 :root {
-   --font-family: 'Sedgwick Ave Display', cursive, sans-serif; /* Google Font Imported */
+   --font-family: 'Sedgwick Ave Display', cursive; /* Google Font Imported */
    --transition-duration: 500ms;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-image: url(/background.png);
+    background-size: 300px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+@keyframes ground {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -1000%;
+    }
+}
+@-webkit-keyframes ground {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -1000%;
+    }
 }
 
 body {
@@ -10,13 +39,19 @@ body {
 
 #chronometer {
     font-family: var(--font-family);
-    font-size: 6vw;
+    font-size: 7.5vw;
     transition-duration: var(--transition-duration);
 }
 
 #counter {
     font-family: var(--font-family);
-    font-size: 10vw;
+    font-size: 9vw;
+}
+
+/* Buttons */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 button {
@@ -57,36 +92,15 @@ button:hover:enabled {
     box-shadow: 7px 10px 6px 5px #00000080;
 }
 
-#background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    background-image: url(/background.png);
-    background-size: 300px;
-    background-repeat: repeat-x;
-    background-position: bottom;
-}
-
-@keyframes ground {
-    0% {
-        left: 0%;
+/* If the screen size width is 1500px wide or more */
+@media screen and (min-width: 1500px) {
+    #chronometer {
+        font-size: 12vh;
     }
-    100% {
-        left: -1000%;
+    #counter {
+        font-size: 14vh;
     }
-}
-@-webkit-keyframes ground {
-    0% {
-        left: 0%;
+    button {
+        font-size: 7vh;
     }
-    100% {
-        left: -1000%;
-    }
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-evenly;
 }
