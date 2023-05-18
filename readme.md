@@ -55,7 +55,7 @@
 <br>
 
 <p>
-  BR-PT
+  PT-BR
 </P>
 
 <p align="justify">
@@ -81,7 +81,7 @@
 <br>
 
 <p>
-  BR-PT
+  PT-BR
 </p>
 ✔️ Ao clicar no botão "Iniciar", o cronômetro começará a contar os segundos, minutos e horas a partir do zero.<br>
 ✔️ Ao clicar no botão "Pausar", o cronômetro pausará a contagem.<br>
